@@ -10,7 +10,7 @@ module.exports = {
       accounts: [process.env.PRIVATE_KEY],
     },
     sepolia: {
-      url: 'https://eth-sepolia.g.alchemy.com/v2/WbiKNMhB__9_VwiO1Y8_nH4V-UXYx7ix',
+      url: 'https://eth-sepolia.g.alchemy.com/v2/Cndewg2l4PcnuXbObezQOhoLCyL8xmmC',
       accounts: [process.env.PRIVATE_KEY],
     },
   }
