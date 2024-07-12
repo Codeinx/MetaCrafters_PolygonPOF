@@ -1,7 +1,7 @@
 const hre = require("hardhat");
 require("dotenv").config();
-import fxERC721RootContractABI from "ERC721FxRootContractABI.json";
-
+import fxERC721RootContractABI from "../../fxERC721FxRootContractABI.json"
+// import fxERC721RootContractABI  from "fxERC721FxRootContractABI.json";
 const fxERC721RootAddress = "0xF9bc4a80464E48369303196645e876c8C7D972de";
 const walletAddress = `${process.env.WALLET_ADDRESS}`;
 

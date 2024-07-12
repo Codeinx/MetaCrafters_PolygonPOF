@@ -6,9 +6,10 @@
 // global scope, and execute the script.
 const hre = require("hardhat");
 const fxRootContractABI = require("../../fxRootContractABI.json");
+// const tokenContractJSON = require("../../artifacts/contracts/MetaToken.sol/MetaToken.json");
 const tokenContractJSON = require("../../artifacts/contracts/MetaToken.sol/MetaToken.json");
 
-const tokenAddress = "0x7fe85Abb76A9BFaB4469467a0FB3AdCF804c908B"; // place your erc20 contract address here
+const tokenAddress = "0x7d1bF16B6152365FBF8f426dcD8F3a1fE1c3BDA1"; // place your erc20 contract address here
 const tokenABI = tokenContractJSON.abi;
 const fxERC20RootAddress = "0x3658ccFDE5e9629b0805EB06AaCFc42416850961";
 const walletAddress = "0x6af865BE0e3Ca6b5Fac16D4FbEd7eaf7B5446141"; // place your public address for your wallet here
